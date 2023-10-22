@@ -7,22 +7,23 @@ Este projeto consiste em uma aplicação Dart e flutter que calcula o Índice de
 
 ## Funcionalidades
 
-- Solicita ao usuário o nome, peso e altura.
+- Solicita ao usuário peso e altura.
 - Calcula o IMC com base nos valores fornecidos.
 - Classifica o resultado do IMC em categorias como "Saudável", "Sobrepeso", etc.
 - Lida com exceções, como altura zero.
-- Exibe o resultado do cálculo e a classificação no terminal.
+- Grava os dados no SQLite​
+- Exibe o resultado do cálculo e a classificação na tela.
 
 
 ## Instalação
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/leandrucarvalho/imc_app
+git clone https://github.com/leandrucarvalho/app_imc_flutter
 ```
 2. Navegue até o diretório do projeto:   
 ```bash
-cd imc_app
+cd app_imc_flutter
 ```
 3. Execute o aplicativo:
 ```bash

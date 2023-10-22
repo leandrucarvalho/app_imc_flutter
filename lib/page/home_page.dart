@@ -21,8 +21,13 @@ class _IMCPageState extends State<IMCPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFD0E9FF),
       appBar: AppBar(
-        title: Text(widget.title),
+        backgroundColor: const Color(0xFF000000),
+        title: Text(
+          widget.title,
+          style: const TextStyle(color: Color(0xFFFFFFFF)),
+        ),
         centerTitle: true,
       ),
       body: Center(
